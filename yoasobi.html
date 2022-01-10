@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- jQuery first, then Popper.js and Bootstrap JS. -->
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>yoasobi特色網站</title>
+	<style type="text/css">
+		body {background-image: linear-gradient(90deg,	#888888, red);}
+		a{color: 		#0000AA;font-size: 25px;}
+	</style>
+</head>
+ <body>
+     <img src="https://i.pinimg.com/736x/37/e7/1e/37e71ef92f3be823bfa5b8e5ca3ef5e2.jpg"style="width: 15%;align=left;
+	position:absolute;top: 750px;left:366px">
+	<div style="font-size: 18px;position:absolute;top: 750px;left:600px">
+	Ayase是日本男性作詞、作曲、編曲、歌手。知名雙人音樂組合YOASOBI的歌曲創作者, <br>
+	於1994年出生於日本山口縣宇部市,從小在琴聲耳濡目染之下,走上了這條路,<br>
+	高中時期創了搖滾樂團名為 Davinci ,且擔任主唱,而因太專注在音樂上而輟學<br>
+	不久之後,樂團終究扛不住東京這個高度競爭的壓力下而解散<br>
+	在2018年，Ayase也因為壓力患上了嚴重的出血性胃潰瘍,停止了樂隊活動。<br>
+	索尼音樂從vocaloid發現這位差點被埋沒的音樂的超新星
+      </div>
+     <img src="https://www.sonymusic.co.jp/adm_image/common/artist_image/90000/90055/profile_image/56696__0_0_0.jpg" style="width: 50%; position:absolute;top:0px;left: 50%;margin-left:-380px">
+     <div style="font-size: 21px; position:absolute; top:455px ;margin-left:300px">
+     	YOASOBI於2019年11月開始活動,由Ayase(作曲/作詞)ikura(主音)目前為Sony 隸屬。<br>
+     	樂團從創立以來的活動主要是將小說化為音樂,正因為這樣的特色加上瞬間爆紅的歌曲出道不到一年即宣布將於紅白登台演唱,<br>
+     	YOASOBI 每一首歌背後都會有一篇原作小說，例如爆紅的《奔向夜空》就是以星野舞夜的獲獎小說《タナトスの誘惑》(桑納托斯的誘惑)<br>
+     	為原型。YOASOBI 將小說變成音樂的特色,並不是單純地製作主題曲或印象曲，而是由 Ayase 先仔細閱讀小說,<br>
+     	再將小說內容和人物以音樂形式表達出來。<br>
+     	所以,當聽眾一邊聽歌,一邊看原著小說就有更深體會,也是令日本樂迷為YOASOBI歌曲深深著迷的原因之一。<br>
+     由於兩人除了 YOASOBI 外，都還有原本就在進行的工作，於是決定將各自的工作視為「早上的活動」，反之 YOASOBI<br> 
+     這個組合就是「晚上的活動」，所以取名 YOASOBI（夜遊び）這個帶有「在夜晚玩耍」意境的詞為他們的團名。</div>
+     <img src="https://i.pinimg.com/564x/18/de/50/18de504af104f97a150477ce5dce8b6c.jpg"style="width:15%;position:absolute;top:1070px;left: 70%">
+     <div style="position:absolute;top: 1100px;left: 25%;font-size: 18px">
+      ikura 本名:幾田莉拉 (日語：幾田 りら)<br>
+      ikura於2000年在美國芝加哥出生，三歲時隨家人返回日本東京都居住<br>
+      並在小學六年級開始編寫歌詞，初中三年級進行全面性的音樂活動<br>
+      2017年7月，宣布加入不插電音樂演奏團體Plusonica,並負責主唱、吉他、小號和鍵盤。<br>
+      2018年11月,Ayase非常中意ikura的聲線,因此受邀加入Yoasobi
+      </div>
+      <div style="color: white;position: fixed;">
+      <a href="怪物.html">怪物</a><br>
+      <a href="群青.html">群青</a><br>
+      <a href="三原色.html">三原色</a><br>
+      <a href="夜に駆ける.html">夜に駆ける</a><br>
+      <a href="優しい彗星.html">優しい彗星</a>
+  </div>
+  <div id="localtime"></div>
+<script type="text/javascript">
+function showLocale(objD)
+{
+var str,colorhead,colorfoot;
+var yy = objD.getYear();
+if(yy<1900) yy = yy 1900;
+var MM = objD.getMonth() 1;
+if(MM<10) MM = '0'   MM;
+var dd = objD.getDate();
+if(dd<10) dd = '0'   dd;
+var hh = objD.getHours();
+if(hh<10) hh = '0'   hh;
+var mm = objD.getMinutes();
+if(mm<10) mm = '0'   mm;
+var ss = objD.getSeconds();
+if(ss<10) ss = '0'   ss;
+var ww = objD.getDay();
+if ( ww==0 ) colorhead="<font color=\"#FF0000\">";
+if ( ww > 0 && ww < 6 ) colorhead="<font color=\"#373737\">";
+if ( ww==6 ) colorhead="<font color=\"#008000\">";
+if (ww==0) ww="星期日";
+if (ww==1) ww="星期一";
+if (ww==2) ww="星期二";
+if (ww==3) ww="星期三";
+if (ww==4) ww="星期四";
+if (ww==5) ww="星期五";
+if (ww==6) ww="星期六";
+colorfoot="</font>"
+str = colorhead   yy   "年"   MM   "月"   dd   "日"   hh   ":"   mm   ":"   ss   " "   ww   colorfoot;
+//alert(str);
+return str;
+}
+function tick()
+{
+var today;
+today = new Date();
+document.getElementById("localtime").innerHTML = showLocale(today);
+window.setTimeout("tick()", 1000);
+}
+tick();
+</script>
+ </body>
+</html>
